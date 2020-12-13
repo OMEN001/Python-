@@ -1,0 +1,353 @@
+ Mon, 09 Dec 2019 15:43:38  INFO logger.py <module> [ line:24 ] hehehe
+ Mon, 09 Dec 2019 15:43:42  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Mon, 09 Dec 2019 15:43:42  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:43:42.847385,结束时间为:2019-12-09 15:43:42.885294,一共等待耗时为:0:00:00.037909
+ Mon, 09 Dec 2019 15:43:42  INFO basepage.py get_element [ line:76 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Mon, 09 Dec 2019 15:43:42  INFO basepage.py input_text [ line:92 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Mon, 09 Dec 2019 15:43:43  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Mon, 09 Dec 2019 15:43:43  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:43:43.098537,结束时间为:2019-12-09 15:43:43.131851,一共等待耗时为:0:00:00.033314
+ Mon, 09 Dec 2019 15:43:43  INFO basepage.py get_element [ line:76 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Mon, 09 Dec 2019 15:43:43  INFO basepage.py input_text [ line:92 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Mon, 09 Dec 2019 15:43:43  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Mon, 09 Dec 2019 15:43:43  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:43:43.221431,结束时间为:2019-12-09 15:43:43.250397,一共等待耗时为:0:00:00.028966
+ Mon, 09 Dec 2019 15:43:43  INFO basepage.py get_element [ line:76 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Mon, 09 Dec 2019 15:43:43  INFO basepage.py click_element [ line:106 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Mon, 09 Dec 2019 15:43:43  INFO basepage.py wait_ele_visible [ line:40 ] 首页_点击第一个抢投标按钮 : 等待 ('xpath', '//a[@class="btn btn-special"]') 元素可见
+ Mon, 09 Dec 2019 15:44:04  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:43:43.336013,结束时间为:2019-12-09 15:44:04.976292,一共等待耗时为:0:00:21.640279
+ Mon, 09 Dec 2019 15:44:04  INFO basepage.py get_element [ line:76 ] 首页_点击第一个抢投标按钮 : 查找 ('xpath', '//a[@class="btn btn-special"]') 元素.
+ Mon, 09 Dec 2019 15:44:04  INFO basepage.py click_element [ line:106 ] 首页_点击第一个抢投标按钮: 点击 ('xpath', '//a[@class="btn btn-special"]') 元素 
+ Mon, 09 Dec 2019 15:44:28  INFO test_invest.py test_invest_failed_invalid_money [ line:86 ] ******* 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非100的整数倍、错误的格式等 *******
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py wait_page_contains_element [ line:58 ] 标页面_获取用户余额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素存在
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py wait_page_contains_element [ line:72 ] 等待结束.开始时间为2019-12-09 15:44:28.144938,结束时间为:2019-12-09 15:44:28.166582,一共等待耗时为:0:00:00.021644
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py get_element [ line:76 ] 标页面_获取用户余额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py get_element_attribute [ line:137 ] 标页面_获取用户余额: 获取 ('xpath', "//input[contains(@class,'invest-unit-investinput')]")  元素的属性 data-amount.
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py get_element_attribute [ line:147 ] 获取的属性值为: 65610036.92
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:44:28.187080,结束时间为:2019-12-09 15:44:28.217294,一共等待耗时为:0:00:00.030214
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py get_element [ line:76 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py get_element_text [ line:120 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 554
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_输入框当中输入投资金额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素可见
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:44:28.241090,结束时间为:2019-12-09 15:44:28.261814,一共等待耗时为:0:00:00.020724
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py get_element [ line:76 ] 标页面_输入框当中输入投资金额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py input_text [ line:92 ] 标页面_输入框当中输入投资金额: 对 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素输入文本 -10
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_提交投资操作 : 等待 ('xpath', '//button[text()="投标"]') 元素可见
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:44:28.364373,结束时间为:2019-12-09 15:44:28.442336,一共等待耗时为:0:00:00.077963
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py get_element [ line:76 ] 标页面_提交投资操作 : 查找 ('xpath', '//button[text()="投标"]') 元素.
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py click_element [ line:106 ] 标页面_提交投资操作: 点击 ('xpath', '//button[text()="投标"]') 元素 
+ Mon, 09 Dec 2019 15:44:28  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_投资失败提示框 - 提示信息获取 : 等待 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 元素可见
+ Mon, 09 Dec 2019 15:44:29  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:44:28.526406,结束时间为:2019-12-09 15:44:29.086497,一共等待耗时为:0:00:00.560091
+ Mon, 09 Dec 2019 15:44:29  INFO basepage.py get_element [ line:76 ] 标页面_投资失败提示框 - 提示信息获取 : 查找 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 元素.
+ Mon, 09 Dec 2019 15:44:29  INFO basepage.py get_element_text [ line:120 ] 标页面_投资失败提示框 - 提示信息获取: 获取 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]')  元素的文本内容.
+ Mon, 09 Dec 2019 15:44:29  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 请正确填写投标金额
+ Mon, 09 Dec 2019 15:44:29  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_关闭投资失败提示框 : 等待 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素可见
+ Mon, 09 Dec 2019 15:44:29  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:44:29.122474,结束时间为:2019-12-09 15:44:29.152823,一共等待耗时为:0:00:00.030349
+ Mon, 09 Dec 2019 15:44:29  INFO basepage.py get_element [ line:76 ] 标页面_关闭投资失败提示框 : 查找 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素.
+ Mon, 09 Dec 2019 15:44:29  INFO basepage.py click_element [ line:106 ] 标页面_关闭投资失败提示框: 点击 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素 
+ Mon, 09 Dec 2019 15:44:52  INFO basepage.py wait_page_contains_element [ line:58 ] 标页面_获取用户余额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素存在
+ Mon, 09 Dec 2019 15:44:52  INFO basepage.py wait_page_contains_element [ line:72 ] 等待结束.开始时间为2019-12-09 15:44:52.255711,结束时间为:2019-12-09 15:44:52.271218,一共等待耗时为:0:00:00.015507
+ Mon, 09 Dec 2019 15:44:52  INFO basepage.py get_element [ line:76 ] 标页面_获取用户余额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:44:52  INFO basepage.py get_element_attribute [ line:137 ] 标页面_获取用户余额: 获取 ('xpath', "//input[contains(@class,'invest-unit-investinput')]")  元素的属性 data-amount.
+ Mon, 09 Dec 2019 15:44:52  INFO basepage.py get_element_attribute [ line:147 ] 获取的属性值为: 65610036.92
+ Mon, 09 Dec 2019 15:44:52  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Mon, 09 Dec 2019 15:44:52  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:44:52.291786,结束时间为:2019-12-09 15:44:52.340873,一共等待耗时为:0:00:00.049087
+ Mon, 09 Dec 2019 15:44:52  INFO basepage.py get_element [ line:76 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Mon, 09 Dec 2019 15:44:52  INFO basepage.py get_element_text [ line:120 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Mon, 09 Dec 2019 15:44:52  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 554
+ Mon, 09 Dec 2019 15:44:57  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Mon, 09 Dec 2019 15:44:57  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:44:57.856927,结束时间为:2019-12-09 15:44:57.891224,一共等待耗时为:0:00:00.034297
+ Mon, 09 Dec 2019 15:44:57  INFO basepage.py get_element [ line:76 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Mon, 09 Dec 2019 15:44:57  INFO basepage.py input_text [ line:92 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Mon, 09 Dec 2019 15:44:58  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Mon, 09 Dec 2019 15:44:58  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:44:58.118940,结束时间为:2019-12-09 15:44:58.164115,一共等待耗时为:0:00:00.045175
+ Mon, 09 Dec 2019 15:44:58  INFO basepage.py get_element [ line:76 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Mon, 09 Dec 2019 15:44:58  INFO basepage.py input_text [ line:92 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Mon, 09 Dec 2019 15:44:58  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Mon, 09 Dec 2019 15:44:58  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:44:58.261044,结束时间为:2019-12-09 15:44:58.290737,一共等待耗时为:0:00:00.029693
+ Mon, 09 Dec 2019 15:44:58  INFO basepage.py get_element [ line:76 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Mon, 09 Dec 2019 15:44:58  INFO basepage.py click_element [ line:106 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Mon, 09 Dec 2019 15:44:58  INFO basepage.py wait_ele_visible [ line:40 ] 首页_点击第一个抢投标按钮 : 等待 ('xpath', '//a[@class="btn btn-special"]') 元素可见
+ Mon, 09 Dec 2019 15:45:20  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:44:58.384360,结束时间为:2019-12-09 15:45:20.076572,一共等待耗时为:0:00:21.692212
+ Mon, 09 Dec 2019 15:45:20  INFO basepage.py get_element [ line:76 ] 首页_点击第一个抢投标按钮 : 查找 ('xpath', '//a[@class="btn btn-special"]') 元素.
+ Mon, 09 Dec 2019 15:45:20  INFO basepage.py click_element [ line:106 ] 首页_点击第一个抢投标按钮: 点击 ('xpath', '//a[@class="btn btn-special"]') 元素 
+ Mon, 09 Dec 2019 15:45:43  INFO test_invest.py test_invest_failed_invalid_money [ line:86 ] ******* 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非100的整数倍、错误的格式等 *******
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py wait_page_contains_element [ line:58 ] 标页面_获取用户余额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素存在
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py wait_page_contains_element [ line:72 ] 等待结束.开始时间为2019-12-09 15:45:43.340503,结束时间为:2019-12-09 15:45:43.358647,一共等待耗时为:0:00:00.018144
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py get_element [ line:76 ] 标页面_获取用户余额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py get_element_attribute [ line:137 ] 标页面_获取用户余额: 获取 ('xpath', "//input[contains(@class,'invest-unit-investinput')]")  元素的属性 data-amount.
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py get_element_attribute [ line:147 ] 获取的属性值为: 65609936.92
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:45:43.378493,结束时间为:2019-12-09 15:45:43.408924,一共等待耗时为:0:00:00.030431
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py get_element [ line:76 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py get_element_text [ line:120 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 553.99
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_输入框当中输入投资金额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素可见
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:45:43.434848,结束时间为:2019-12-09 15:45:43.454257,一共等待耗时为:0:00:00.019409
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py get_element [ line:76 ] 标页面_输入框当中输入投资金额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py input_text [ line:92 ] 标页面_输入框当中输入投资金额: 对 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素输入文本 0
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_提交投资操作 : 等待 ('xpath', '//button[text()="投标"]') 元素可见
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:45:43.573962,结束时间为:2019-12-09 15:45:43.644151,一共等待耗时为:0:00:00.070189
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py get_element [ line:76 ] 标页面_提交投资操作 : 查找 ('xpath', '//button[text()="投标"]') 元素.
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py click_element [ line:106 ] 标页面_提交投资操作: 点击 ('xpath', '//button[text()="投标"]') 元素 
+ Mon, 09 Dec 2019 15:45:43  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_投资失败提示框 - 提示信息获取 : 等待 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 元素可见
+ Mon, 09 Dec 2019 15:45:44  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:45:43.742355,结束时间为:2019-12-09 15:45:44.291373,一共等待耗时为:0:00:00.549018
+ Mon, 09 Dec 2019 15:45:44  INFO basepage.py get_element [ line:76 ] 标页面_投资失败提示框 - 提示信息获取 : 查找 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 元素.
+ Mon, 09 Dec 2019 15:45:44  INFO basepage.py get_element_text [ line:120 ] 标页面_投资失败提示框 - 提示信息获取: 获取 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]')  元素的文本内容.
+ Mon, 09 Dec 2019 15:45:44  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 请正确填写投标金额
+ Mon, 09 Dec 2019 15:45:44  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_关闭投资失败提示框 : 等待 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素可见
+ Mon, 09 Dec 2019 15:45:44  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:45:44.318442,结束时间为:2019-12-09 15:45:44.343997,一共等待耗时为:0:00:00.025555
+ Mon, 09 Dec 2019 15:45:44  INFO basepage.py get_element [ line:76 ] 标页面_关闭投资失败提示框 : 查找 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素.
+ Mon, 09 Dec 2019 15:45:44  INFO basepage.py click_element [ line:106 ] 标页面_关闭投资失败提示框: 点击 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素 
+ Mon, 09 Dec 2019 15:46:07  INFO basepage.py wait_page_contains_element [ line:58 ] 标页面_获取用户余额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素存在
+ Mon, 09 Dec 2019 15:46:07  INFO basepage.py wait_page_contains_element [ line:72 ] 等待结束.开始时间为2019-12-09 15:46:07.464262,结束时间为:2019-12-09 15:46:07.487204,一共等待耗时为:0:00:00.022942
+ Mon, 09 Dec 2019 15:46:07  INFO basepage.py get_element [ line:76 ] 标页面_获取用户余额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:46:07  INFO basepage.py get_element_attribute [ line:137 ] 标页面_获取用户余额: 获取 ('xpath', "//input[contains(@class,'invest-unit-investinput')]")  元素的属性 data-amount.
+ Mon, 09 Dec 2019 15:46:07  INFO basepage.py get_element_attribute [ line:147 ] 获取的属性值为: 65609936.92
+ Mon, 09 Dec 2019 15:46:07  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Mon, 09 Dec 2019 15:46:07  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:46:07.509487,结束时间为:2019-12-09 15:46:07.542001,一共等待耗时为:0:00:00.032514
+ Mon, 09 Dec 2019 15:46:07  INFO basepage.py get_element [ line:76 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Mon, 09 Dec 2019 15:46:07  INFO basepage.py get_element_text [ line:120 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Mon, 09 Dec 2019 15:46:07  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 553.99
+ Mon, 09 Dec 2019 15:46:11  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Mon, 09 Dec 2019 15:46:11  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:46:11.858931,结束时间为:2019-12-09 15:46:11.899227,一共等待耗时为:0:00:00.040296
+ Mon, 09 Dec 2019 15:46:11  INFO basepage.py get_element [ line:76 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Mon, 09 Dec 2019 15:46:11  INFO basepage.py input_text [ line:92 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Mon, 09 Dec 2019 15:46:12  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Mon, 09 Dec 2019 15:46:12  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:46:12.111000,结束时间为:2019-12-09 15:46:12.144255,一共等待耗时为:0:00:00.033255
+ Mon, 09 Dec 2019 15:46:12  INFO basepage.py get_element [ line:76 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Mon, 09 Dec 2019 15:46:12  INFO basepage.py input_text [ line:92 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Mon, 09 Dec 2019 15:46:12  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Mon, 09 Dec 2019 15:46:12  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:46:12.246916,结束时间为:2019-12-09 15:46:12.278558,一共等待耗时为:0:00:00.031642
+ Mon, 09 Dec 2019 15:46:12  INFO basepage.py get_element [ line:76 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Mon, 09 Dec 2019 15:46:12  INFO basepage.py click_element [ line:106 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Mon, 09 Dec 2019 15:46:12  INFO basepage.py wait_ele_visible [ line:40 ] 首页_点击第一个抢投标按钮 : 等待 ('xpath', '//a[@class="btn btn-special"]') 元素可见
+ Mon, 09 Dec 2019 15:46:34  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:46:12.365607,结束时间为:2019-12-09 15:46:34.096264,一共等待耗时为:0:00:21.730657
+ Mon, 09 Dec 2019 15:46:34  INFO basepage.py get_element [ line:76 ] 首页_点击第一个抢投标按钮 : 查找 ('xpath', '//a[@class="btn btn-special"]') 元素.
+ Mon, 09 Dec 2019 15:46:34  INFO basepage.py click_element [ line:106 ] 首页_点击第一个抢投标按钮: 点击 ('xpath', '//a[@class="btn btn-special"]') 元素 
+ Mon, 09 Dec 2019 15:46:57  INFO test_invest.py test_invest_failed_invalid_money [ line:86 ] ******* 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非100的整数倍、错误的格式等 *******
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py wait_page_contains_element [ line:58 ] 标页面_获取用户余额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素存在
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py wait_page_contains_element [ line:72 ] 等待结束.开始时间为2019-12-09 15:46:57.297396,结束时间为:2019-12-09 15:46:57.317761,一共等待耗时为:0:00:00.020365
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py get_element [ line:76 ] 标页面_获取用户余额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py get_element_attribute [ line:137 ] 标页面_获取用户余额: 获取 ('xpath', "//input[contains(@class,'invest-unit-investinput')]")  元素的属性 data-amount.
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py get_element_attribute [ line:147 ] 获取的属性值为: 65609936.92
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:46:57.338326,结束时间为:2019-12-09 15:46:57.368189,一共等待耗时为:0:00:00.029863
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py get_element [ line:76 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py get_element_text [ line:120 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 553.99
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_输入框当中输入投资金额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素可见
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:46:57.392796,结束时间为:2019-12-09 15:46:57.411479,一共等待耗时为:0:00:00.018683
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py get_element [ line:76 ] 标页面_输入框当中输入投资金额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py input_text [ line:92 ] 标页面_输入框当中输入投资金额: 对 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素输入文本  
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_提交投资操作 : 等待 ('xpath', '//button[text()="投标"]') 元素可见
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:46:57.497489,结束时间为:2019-12-09 15:46:57.564854,一共等待耗时为:0:00:00.067365
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py get_element [ line:76 ] 标页面_提交投资操作 : 查找 ('xpath', '//button[text()="投标"]') 元素.
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py click_element [ line:106 ] 标页面_提交投资操作: 点击 ('xpath', '//button[text()="投标"]') 元素 
+ Mon, 09 Dec 2019 15:46:57  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_投资失败提示框 - 提示信息获取 : 等待 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 元素可见
+ Mon, 09 Dec 2019 15:46:58  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:46:57.685625,结束时间为:2019-12-09 15:46:58.228701,一共等待耗时为:0:00:00.543076
+ Mon, 09 Dec 2019 15:46:58  INFO basepage.py get_element [ line:76 ] 标页面_投资失败提示框 - 提示信息获取 : 查找 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 元素.
+ Mon, 09 Dec 2019 15:46:58  INFO basepage.py get_element_text [ line:120 ] 标页面_投资失败提示框 - 提示信息获取: 获取 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]')  元素的文本内容.
+ Mon, 09 Dec 2019 15:46:58  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 请正确填写投标金额
+ Mon, 09 Dec 2019 15:46:58  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_关闭投资失败提示框 : 等待 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素可见
+ Mon, 09 Dec 2019 15:46:58  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:46:58.256787,结束时间为:2019-12-09 15:46:58.280618,一共等待耗时为:0:00:00.023831
+ Mon, 09 Dec 2019 15:46:58  INFO basepage.py get_element [ line:76 ] 标页面_关闭投资失败提示框 : 查找 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素.
+ Mon, 09 Dec 2019 15:46:58  INFO basepage.py click_element [ line:106 ] 标页面_关闭投资失败提示框: 点击 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素 
+ Mon, 09 Dec 2019 15:47:21  INFO basepage.py wait_page_contains_element [ line:58 ] 标页面_获取用户余额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素存在
+ Mon, 09 Dec 2019 15:47:21  INFO basepage.py wait_page_contains_element [ line:72 ] 等待结束.开始时间为2019-12-09 15:47:21.366251,结束时间为:2019-12-09 15:47:21.386302,一共等待耗时为:0:00:00.020051
+ Mon, 09 Dec 2019 15:47:21  INFO basepage.py get_element [ line:76 ] 标页面_获取用户余额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:47:21  INFO basepage.py get_element_attribute [ line:137 ] 标页面_获取用户余额: 获取 ('xpath', "//input[contains(@class,'invest-unit-investinput')]")  元素的属性 data-amount.
+ Mon, 09 Dec 2019 15:47:21  INFO basepage.py get_element_attribute [ line:147 ] 获取的属性值为: 65609936.92
+ Mon, 09 Dec 2019 15:47:21  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Mon, 09 Dec 2019 15:47:21  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:47:21.412555,结束时间为:2019-12-09 15:47:21.445689,一共等待耗时为:0:00:00.033134
+ Mon, 09 Dec 2019 15:47:21  INFO basepage.py get_element [ line:76 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Mon, 09 Dec 2019 15:47:21  INFO basepage.py get_element_text [ line:120 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Mon, 09 Dec 2019 15:47:21  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 553.99
+ Mon, 09 Dec 2019 15:47:26  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Mon, 09 Dec 2019 15:47:26  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:47:26.838232,结束时间为:2019-12-09 15:47:26.872494,一共等待耗时为:0:00:00.034262
+ Mon, 09 Dec 2019 15:47:26  INFO basepage.py get_element [ line:76 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Mon, 09 Dec 2019 15:47:26  INFO basepage.py input_text [ line:92 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Mon, 09 Dec 2019 15:47:27  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Mon, 09 Dec 2019 15:47:27  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:47:27.089634,结束时间为:2019-12-09 15:47:27.127424,一共等待耗时为:0:00:00.037790
+ Mon, 09 Dec 2019 15:47:27  INFO basepage.py get_element [ line:76 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Mon, 09 Dec 2019 15:47:27  INFO basepage.py input_text [ line:92 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Mon, 09 Dec 2019 15:47:27  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Mon, 09 Dec 2019 15:47:27  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:47:27.221849,结束时间为:2019-12-09 15:47:27.249932,一共等待耗时为:0:00:00.028083
+ Mon, 09 Dec 2019 15:47:27  INFO basepage.py get_element [ line:76 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Mon, 09 Dec 2019 15:47:27  INFO basepage.py click_element [ line:106 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Mon, 09 Dec 2019 15:47:27  INFO basepage.py wait_ele_visible [ line:40 ] 首页_点击第一个抢投标按钮 : 等待 ('xpath', '//a[@class="btn btn-special"]') 元素可见
+ Mon, 09 Dec 2019 15:47:49  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:47:27.333369,结束时间为:2019-12-09 15:47:49.015981,一共等待耗时为:0:00:21.682612
+ Mon, 09 Dec 2019 15:47:49  INFO basepage.py get_element [ line:76 ] 首页_点击第一个抢投标按钮 : 查找 ('xpath', '//a[@class="btn btn-special"]') 元素.
+ Mon, 09 Dec 2019 15:47:49  INFO basepage.py click_element [ line:106 ] 首页_点击第一个抢投标按钮: 点击 ('xpath', '//a[@class="btn btn-special"]') 元素 
+ Mon, 09 Dec 2019 15:48:12  INFO test_invest.py test_invest_failed_invalid_money [ line:86 ] ******* 投资功能 - 异常场景用例：投资金额有效性校验 - 投资金额为非100的整数倍、错误的格式等 *******
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py wait_page_contains_element [ line:58 ] 标页面_获取用户余额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素存在
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py wait_page_contains_element [ line:72 ] 等待结束.开始时间为2019-12-09 15:48:12.143585,结束时间为:2019-12-09 15:48:12.163125,一共等待耗时为:0:00:00.019540
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py get_element [ line:76 ] 标页面_获取用户余额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py get_element_attribute [ line:137 ] 标页面_获取用户余额: 获取 ('xpath', "//input[contains(@class,'invest-unit-investinput')]")  元素的属性 data-amount.
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py get_element_attribute [ line:147 ] 获取的属性值为: 65609936.92
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:48:12.186965,结束时间为:2019-12-09 15:48:12.220004,一共等待耗时为:0:00:00.033039
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py get_element [ line:76 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py get_element_text [ line:120 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 553.99
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_输入框当中输入投资金额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素可见
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:48:12.246747,结束时间为:2019-12-09 15:48:12.266492,一共等待耗时为:0:00:00.019745
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py get_element [ line:76 ] 标页面_输入框当中输入投资金额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py input_text [ line:92 ] 标页面_输入框当中输入投资金额: 对 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素输入文本 50
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_提交投资操作 : 等待 ('xpath', '//button[text()="投标"]') 元素可见
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:48:12.391864,结束时间为:2019-12-09 15:48:12.463140,一共等待耗时为:0:00:00.071276
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py get_element [ line:76 ] 标页面_提交投资操作 : 查找 ('xpath', '//button[text()="投标"]') 元素.
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py click_element [ line:106 ] 标页面_提交投资操作: 点击 ('xpath', '//button[text()="投标"]') 元素 
+ Mon, 09 Dec 2019 15:48:12  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_投资失败提示框 - 提示信息获取 : 等待 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 元素可见
+ Mon, 09 Dec 2019 15:48:13  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:48:12.563316,结束时间为:2019-12-09 15:48:13.109958,一共等待耗时为:0:00:00.546642
+ Mon, 09 Dec 2019 15:48:13  INFO basepage.py get_element [ line:76 ] 标页面_投资失败提示框 - 提示信息获取 : 查找 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]') 元素.
+ Mon, 09 Dec 2019 15:48:13  INFO basepage.py get_element_text [ line:120 ] 标页面_投资失败提示框 - 提示信息获取: 获取 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//div[@class="text-center"]')  元素的文本内容.
+ Mon, 09 Dec 2019 15:48:13  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 投标金额必须为100的倍数
+ Mon, 09 Dec 2019 15:48:13  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_关闭投资失败提示框 : 等待 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素可见
+ Mon, 09 Dec 2019 15:48:13  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:48:13.138599,结束时间为:2019-12-09 15:48:13.164879,一共等待耗时为:0:00:00.026280
+ Mon, 09 Dec 2019 15:48:13  INFO basepage.py get_element [ line:76 ] 标页面_关闭投资失败提示框 : 查找 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素.
+ Mon, 09 Dec 2019 15:48:13  INFO basepage.py click_element [ line:106 ] 标页面_关闭投资失败提示框: 点击 ('xpath', '//div[contains(@class,"layui-layer-dialog")]//a') 元素 
+ Mon, 09 Dec 2019 15:48:36  INFO basepage.py wait_page_contains_element [ line:58 ] 标页面_获取用户余额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素存在
+ Mon, 09 Dec 2019 15:48:36  INFO basepage.py wait_page_contains_element [ line:72 ] 等待结束.开始时间为2019-12-09 15:48:36.294154,结束时间为:2019-12-09 15:48:36.312808,一共等待耗时为:0:00:00.018654
+ Mon, 09 Dec 2019 15:48:36  INFO basepage.py get_element [ line:76 ] 标页面_获取用户余额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:48:36  INFO basepage.py get_element_attribute [ line:137 ] 标页面_获取用户余额: 获取 ('xpath', "//input[contains(@class,'invest-unit-investinput')]")  元素的属性 data-amount.
+ Mon, 09 Dec 2019 15:48:36  INFO basepage.py get_element_attribute [ line:147 ] 获取的属性值为: 65609936.92
+ Mon, 09 Dec 2019 15:48:36  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Mon, 09 Dec 2019 15:48:36  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:48:36.338171,结束时间为:2019-12-09 15:48:36.370807,一共等待耗时为:0:00:00.032636
+ Mon, 09 Dec 2019 15:48:36  INFO basepage.py get_element [ line:76 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Mon, 09 Dec 2019 15:48:36  INFO basepage.py get_element_text [ line:120 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Mon, 09 Dec 2019 15:48:36  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 553.99
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:48:42.146721,结束时间为:2019-12-09 15:48:42.182598,一共等待耗时为:0:00:00.035877
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py get_element [ line:76 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py input_text [ line:92 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:48:42.390546,结束时间为:2019-12-09 15:48:42.428986,一共等待耗时为:0:00:00.038440
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py get_element [ line:76 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py input_text [ line:92 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:48:42.513485,结束时间为:2019-12-09 15:48:42.540706,一共等待耗时为:0:00:00.027221
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py get_element [ line:76 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py click_element [ line:106 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Mon, 09 Dec 2019 15:48:42  INFO basepage.py wait_ele_visible [ line:40 ] 首页_点击第一个抢投标按钮 : 等待 ('xpath', '//a[@class="btn btn-special"]') 元素可见
+ Mon, 09 Dec 2019 15:49:04  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:48:42.632036,结束时间为:2019-12-09 15:49:04.270384,一共等待耗时为:0:00:21.638348
+ Mon, 09 Dec 2019 15:49:04  INFO basepage.py get_element [ line:76 ] 首页_点击第一个抢投标按钮 : 查找 ('xpath', '//a[@class="btn btn-special"]') 元素.
+ Mon, 09 Dec 2019 15:49:04  INFO basepage.py click_element [ line:106 ] 首页_点击第一个抢投标按钮: 点击 ('xpath', '//a[@class="btn btn-special"]') 元素 
+ Mon, 09 Dec 2019 15:49:27  INFO test_invest.py test_invest_success [ line:60 ] ******* 投资功能 - 正常场景用例：投资1000元成功。用户可用余额减少1000，标余额减少1000 *******
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py wait_page_contains_element [ line:58 ] 标页面_获取用户余额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素存在
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py wait_page_contains_element [ line:72 ] 等待结束.开始时间为2019-12-09 15:49:27.359881,结束时间为:2019-12-09 15:49:27.379875,一共等待耗时为:0:00:00.019994
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py get_element [ line:76 ] 标页面_获取用户余额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py get_element_attribute [ line:137 ] 标页面_获取用户余额: 获取 ('xpath', "//input[contains(@class,'invest-unit-investinput')]")  元素的属性 data-amount.
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py get_element_attribute [ line:147 ] 获取的属性值为: 65609936.92
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:49:27.400840,结束时间为:2019-12-09 15:49:27.430006,一共等待耗时为:0:00:00.029166
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py get_element [ line:76 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py get_element_text [ line:120 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 553.99
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_输入框当中输入投资金额 : 等待 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素可见
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:49:27.455359,结束时间为:2019-12-09 15:49:27.473447,一共等待耗时为:0:00:00.018088
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py get_element [ line:76 ] 标页面_输入框当中输入投资金额 : 查找 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素.
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py input_text [ line:92 ] 标页面_输入框当中输入投资金额: 对 ('xpath', "//input[contains(@class,'invest-unit-investinput')]") 元素输入文本 1000
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_提交投资操作 : 等待 ('xpath', '//button[text()="投标"]') 元素可见
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:49:27.617413,结束时间为:2019-12-09 15:49:27.675190,一共等待耗时为:0:00:00.057777
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py get_element [ line:76 ] 标页面_提交投资操作 : 查找 ('xpath', '//button[text()="投标"]') 元素.
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py click_element [ line:106 ] 标页面_提交投资操作: 点击 ('xpath', '//button[text()="投标"]') 元素 
+ Mon, 09 Dec 2019 15:49:27  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_投资成功的提示框 - 点击查看并激活 : 等待 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 元素可见
+ Mon, 09 Dec 2019 15:49:28  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:49:27.795890,结束时间为:2019-12-09 15:49:28.347376,一共等待耗时为:0:00:00.551486
+ Mon, 09 Dec 2019 15:49:28  INFO basepage.py get_element [ line:76 ] 标页面_投资成功的提示框 - 点击查看并激活 : 查找 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 元素.
+ Mon, 09 Dec 2019 15:49:28  INFO basepage.py click_element [ line:106 ] 标页面_投资成功的提示框 - 点击查看并激活: 点击 ('xpath', '//div[@class="layui-layer-content"]//button[text()="查看并激活"]') 元素 
+ Mon, 09 Dec 2019 15:49:58  INFO basepage.py wait_ele_visible [ line:40 ] 个人页面_获取用户余额 : 等待 ('xpath', '//li[@class="color_sub"]') 元素可见
+ Mon, 09 Dec 2019 15:49:58  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:49:58.577455,结束时间为:2019-12-09 15:49:58.607948,一共等待耗时为:0:00:00.030493
+ Mon, 09 Dec 2019 15:49:58  INFO basepage.py get_element [ line:76 ] 个人页面_获取用户余额 : 查找 ('xpath', '//li[@class="color_sub"]') 元素.
+ Mon, 09 Dec 2019 15:49:58  INFO basepage.py get_element_text [ line:120 ] 个人页面_获取用户余额: 获取 ('xpath', '//li[@class="color_sub"]')  元素的文本内容.
+ Mon, 09 Dec 2019 15:49:58  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 65608936.92元
+ Mon, 09 Dec 2019 15:50:42  INFO basepage.py wait_ele_visible [ line:40 ] 标页面_标当前剩余的可投余额 : 等待 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素可见
+ Mon, 09 Dec 2019 15:50:42  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:50:42.781219,结束时间为:2019-12-09 15:50:42.823286,一共等待耗时为:0:00:00.042067
+ Mon, 09 Dec 2019 15:50:42  INFO basepage.py get_element [ line:76 ] 标页面_标当前剩余的可投余额 : 查找 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span') 元素.
+ Mon, 09 Dec 2019 15:50:42  INFO basepage.py get_element_text [ line:120 ] 标页面_标当前剩余的可投余额: 获取 ('xpath', '//div[contains(@class,"money_overplus")]//span[text()="剩余："]/following-sibling::span')  元素的文本内容.
+ Mon, 09 Dec 2019 15:50:42  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 553.89
+ Mon, 09 Dec 2019 15:50:49  INFO test_login.py test_login_failed_by_wrongData [ line:49 ] ******* 登陆功能 - 异常场景用例：数据格式校验 - 用户名为空/密码为空/用户名格式不正确 *******
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:50:49.126439,结束时间为:2019-12-09 15:50:49.165569,一共等待耗时为:0:00:00.039130
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py get_element [ line:76 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py input_text [ line:92 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:50:49.256970,结束时间为:2019-12-09 15:50:49.285748,一共等待耗时为:0:00:00.028778
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py get_element [ line:76 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py input_text [ line:92 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:50:49.444879,结束时间为:2019-12-09 15:50:49.471892,一共等待耗时为:0:00:00.027013
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py get_element [ line:76 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py click_element [ line:106 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_表单区域错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:50:49.553972,结束时间为:2019-12-09 15:50:49.579549,一共等待耗时为:0:00:00.025577
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py get_element [ line:76 ] 登陆页面_表单区域错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py get_element_text [ line:120 ] 登陆页面_表单区域错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Mon, 09 Dec 2019 15:50:49  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 请输入手机号
+ Mon, 09 Dec 2019 15:50:54  INFO test_login.py test_login_failed_by_wrongData [ line:49 ] ******* 登陆功能 - 异常场景用例：数据格式校验 - 用户名为空/密码为空/用户名格式不正确 *******
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:50:54.531064,结束时间为:2019-12-09 15:50:54.563164,一共等待耗时为:0:00:00.032100
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py get_element [ line:76 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py input_text [ line:92 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:50:54.773598,结束时间为:2019-12-09 15:50:54.811309,一共等待耗时为:0:00:00.037711
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py get_element [ line:76 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py input_text [ line:92 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:50:54.872934,结束时间为:2019-12-09 15:50:54.898267,一共等待耗时为:0:00:00.025333
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py get_element [ line:76 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py click_element [ line:106 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Mon, 09 Dec 2019 15:50:54  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_表单区域错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Mon, 09 Dec 2019 15:50:55  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:50:54.966963,结束时间为:2019-12-09 15:50:55.016950,一共等待耗时为:0:00:00.049987
+ Mon, 09 Dec 2019 15:50:55  INFO basepage.py get_element [ line:76 ] 登陆页面_表单区域错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Mon, 09 Dec 2019 15:50:55  INFO basepage.py get_element_text [ line:120 ] 登陆页面_表单区域错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Mon, 09 Dec 2019 15:50:55  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 请输入密码
+ Mon, 09 Dec 2019 15:50:59  INFO test_login.py test_login_failed_by_wrongData [ line:49 ] ******* 登陆功能 - 异常场景用例：数据格式校验 - 用户名为空/密码为空/用户名格式不正确 *******
+ Mon, 09 Dec 2019 15:50:59  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Mon, 09 Dec 2019 15:50:59  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:50:59.944215,结束时间为:2019-12-09 15:50:59.979910,一共等待耗时为:0:00:00.035695
+ Mon, 09 Dec 2019 15:50:59  INFO basepage.py get_element [ line:76 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Mon, 09 Dec 2019 15:50:59  INFO basepage.py input_text [ line:92 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 186847205
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:51:00.181474,结束时间为:2019-12-09 15:51:00.218388,一共等待耗时为:0:00:00.036914
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py get_element [ line:76 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py input_text [ line:92 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:51:00.309860,结束时间为:2019-12-09 15:51:00.335561,一共等待耗时为:0:00:00.025701
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py get_element [ line:76 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py click_element [ line:106 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_表单区域错误提示 : 等待 ('xpath', '//div[@class="form-error-info"]') 元素可见
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:51:00.438380,结束时间为:2019-12-09 15:51:00.465910,一共等待耗时为:0:00:00.027530
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py get_element [ line:76 ] 登陆页面_表单区域错误提示 : 查找 ('xpath', '//div[@class="form-error-info"]') 元素.
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py get_element_text [ line:120 ] 登陆页面_表单区域错误提示: 获取 ('xpath', '//div[@class="form-error-info"]')  元素的文本内容.
+ Mon, 09 Dec 2019 15:51:00  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 请输入正确的手机号
+ Mon, 09 Dec 2019 15:51:04  INFO test_login.py test_login_failed_by_wrong_passwd [ line:58 ] ******* 登陆功能 - 异常场景用例：数据后台有效性校验 - 密码错误 *******
+ Mon, 09 Dec 2019 15:51:04  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Mon, 09 Dec 2019 15:51:04  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:51:04.825179,结束时间为:2019-12-09 15:51:04.866752,一共等待耗时为:0:00:00.041573
+ Mon, 09 Dec 2019 15:51:04  INFO basepage.py get_element [ line:76 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Mon, 09 Dec 2019 15:51:04  INFO basepage.py input_text [ line:92 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:51:05.080808,结束时间为:2019-12-09 15:51:05.112418,一共等待耗时为:0:00:00.031610
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py get_element [ line:76 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py input_text [ line:92 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python11
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:51:05.215336,结束时间为:2019-12-09 15:51:05.243726,一共等待耗时为:0:00:00.028390
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py get_element [ line:76 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py click_element [ line:106 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_页面中间toast错误提示 : 等待 ('xpath', '//div[@class="layui-layer-content"]') 元素可见
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:51:05.334307,结束时间为:2019-12-09 15:51:05.884737,一共等待耗时为:0:00:00.550430
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py get_element [ line:76 ] 登陆页面_页面中间toast错误提示 : 查找 ('xpath', '//div[@class="layui-layer-content"]') 元素.
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py get_element_text [ line:120 ] 登陆页面_页面中间toast错误提示: 获取 ('xpath', '//div[@class="layui-layer-content"]')  元素的文本内容.
+ Mon, 09 Dec 2019 15:51:05  INFO basepage.py get_element_text [ line:130 ] 获取的文本值为: 帐号或密码错误!
+ Mon, 09 Dec 2019 15:51:10  INFO test_login.py test_login_success [ line:37 ] ******* 登陆功能 - 正常场景用例：登陆成功 *******
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_用户名输入 : 等待 ('xpath', '//input[@name="phone"]') 元素可见
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:51:10.169884,结束时间为:2019-12-09 15:51:10.204677,一共等待耗时为:0:00:00.034793
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py get_element [ line:76 ] 登陆页面_用户名输入 : 查找 ('xpath', '//input[@name="phone"]') 元素.
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py input_text [ line:92 ] 登陆页面_用户名输入: 对 ('xpath', '//input[@name="phone"]') 元素输入文本 18684720553
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_密码输入 : 等待 ('xpath', '//input[@name="password"]') 元素可见
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:51:10.384496,结束时间为:2019-12-09 15:51:10.427546,一共等待耗时为:0:00:00.043050
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py get_element [ line:76 ] 登陆页面_密码输入 : 查找 ('xpath', '//input[@name="password"]') 元素.
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py input_text [ line:92 ] 登陆页面_密码输入: 对 ('xpath', '//input[@name="password"]') 元素输入文本 python
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py wait_ele_visible [ line:40 ] 登陆页面_点击登陆按钮 : 等待 ('tag name', 'button') 元素可见
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py wait_ele_visible [ line:54 ] 等待结束.开始时间为2019-12-09 15:51:10.514916,结束时间为:2019-12-09 15:51:10.544167,一共等待耗时为:0:00:00.029251
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py get_element [ line:76 ] 登陆页面_点击登陆按钮 : 查找 ('tag name', 'button') 元素.
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py click_element [ line:106 ] 登陆页面_点击登陆按钮: 点击 ('tag name', 'button') 元素 
+ Mon, 09 Dec 2019 15:51:10  INFO basepage.py check_element_visible [ line:156 ] 首页_检测退出元素是否存在: 检测元素 ('xpath', '//a[text()="退出"]') 存在且可见于页面。
+ Mon, 09 Dec 2019 15:51:32  INFO basepage.py check_element_visible [ line:164 ]  10秒内元素可见。
